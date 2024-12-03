@@ -1,10 +1,12 @@
 {
   "name": "@adars47/react-snowflake",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Use it as a christmas themed easter egg",
-  "main": "snowflake.js",
+  "main": "dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -12,13 +14,23 @@
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1"
+    "react-dom": "^18.3.1"
   },
   "author": "adarsha nepal",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/adars47/react-snowflake/issues"
   },
-  "homepage": "https://github.com/adars47/react-snowflake#readme"
+  "homepage": "https://github.com/adars47/react-snowflake#readme",
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "babel-loader": "^9.1.3",
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4",
+    "css-loader": "7.1.2",
+    "style-loader": "4.0.0",
+    "webpack-dev-server": "^5.0.4"
+  }
 }
