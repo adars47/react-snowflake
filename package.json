@@ -1,0 +1,19 @@
+{
+  "name": "@adars47/react-snowflake",
+  "version": "1.0.0",
+  "description": "Use it as a christmas themed easter egg",
+  "main": "snowflake.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adars47/react-snowflake.git"
+  },
+  "author": "adarsha nepal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adars47/react-snowflake/issues"
+  },
+  "homepage": "https://github.com/adars47/react-snowflake#readme"
+}
