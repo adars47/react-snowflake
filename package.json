@@ -1,6 +1,6 @@
 {
   "name": "@adars47/react-snowflake",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use it as a christmas themed easter egg",
   "main": "snowflake.js",
   "scripts": {
