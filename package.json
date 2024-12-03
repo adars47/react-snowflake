@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/adars47/react-snowflake.git"
   },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1"
+  },
   "author": "adarsha nepal",
   "license": "MIT",
   "bugs": {
